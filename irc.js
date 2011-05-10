@@ -2,7 +2,8 @@ var sys = require('sys'),
     irc = require('irc'),
     express = require('express'),
     io = require('socket.io'),
-    ejs = require('ejs');
+    ejs = require('ejs'),
+    ircjs = require('irc-js');
 
 
 var clients = [];
@@ -12,19 +13,25 @@ var uniqueClientId = 0;
 function registerClient() {
     clientId = uniqueClientId;
     uniqueClientId++;
-    sys.puts('Using name pandabot' + clientId);
-    clients[clientId] = new irc.Client('irc.freenode.net', 'pandabot' + clientId, {
-                    userName: 'pandabot' + clientId,
-                    realName: 'Panda Bot',
-                    channels: ['##meatspace']});
-    clients[clientId].addListener('raw', function(message) {
-        sys.puts('maybe send ' + clientId);
+    sys.puts('Using name pandabot' + Date.now());
+    //clients[clientId] = new irc.Client('irc.freenode.net', 'pandabot' + clientId, {
+    //                userName: 'pandabot' + clientId,
+    //                realName: 'Panda Bot',
+    //                channels: ['##meatspace']});
+    clients[clientId] = new ircjs({server: 'irc.freenode.net',
+                                   user : {
+                                       username: 'pandabot' + Date.now(),
+                                       realname: 'PandaBots -- ' + Date.now()
+                                   }});
+
+    clients[clientId].addListener('raw', function(evt, message) {
         if (sockets[clientId] != null) {
             sys.puts('successfully sending message');
-            sockets[clientId].send('event ' + message.command + ':' + message.args);
+            sockets[clientId].send('event ' + evt + ':' + message);
         }
         //sys.puts('event ' + message.command + ':' +  message.args);
     });
+    clients[clientId].connect(function() { sys.puts('connected ' + clientId);});
     
     clients[clientId].addListener('message', function(nick, to, text) {
         //sys.puts('message ' + to + ' ' + text);

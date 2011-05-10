@@ -1,0 +1,802 @@
+info it worked if it ends with ok
+verbose cli [ 'node',
+verbose cli   '/Users/apanda/code/irc-exp/env/bin/npm',
+verbose cli   'install',
+verbose cli   'irc-js' ]
+info using npm@1.0.6
+info using node@v0.4.7
+verbose config file /Users/apanda/.npmrc
+verbose config file /Users/apanda/code/irc-exp/env/etc/npmrc
+silly testEngine { name: 'ejs',
+silly testEngine   description: 'Embedded JavaScript templates',
+silly testEngine   version: '0.4.1',
+silly testEngine   author: 
+silly testEngine    { name: 'TJ Holowaychuk',
+silly testEngine      email: 'tj@vision-media.ca' },
+silly testEngine   keywords: [ 'template', 'engine', 'ejs' ],
+silly testEngine   main: './lib/ejs.js',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'ejs@0.4.1',
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.7',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/apanda/code/irc-exp/node_modules/ejs/package.json
+verbose loadDefaults ejs@0.4.1
+silly testEngine { name: 'express',
+silly testEngine   description: 'Sinatra inspired web development framework',
+silly testEngine   version: '2.3.4',
+silly testEngine   author: 
+silly testEngine    { name: 'TJ Holowaychuk',
+silly testEngine      email: 'tj@vision-media.ca' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'TJ Holowaychuk',
+silly testEngine        email: 'tj@vision-media.ca' },
+silly testEngine      { name: 'Aaron Heckmann',
+silly testEngine        email: 'aaron.heckmann+github@gmail.com' },
+silly testEngine      { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly testEngine      { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly testEngine   dependencies: 
+silly testEngine    { connect: '>= 1.4.0 < 2.0.0',
+silly testEngine      mime: '>= 0.0.1',
+silly testEngine      qs: '>= 0.0.6' },
+silly testEngine   keywords: [ 'framework', 'sinatra', 'web', 'rest', 'restful' ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/visionmedia/express.git' },
+silly testEngine   main: 'index',
+silly testEngine   bin: { express: './bin/express' },
+silly testEngine   engines: { node: '>= 0.4.1 < 0.5.0' },
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'express@2.3.4',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.7',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/apanda/code/irc-exp/node_modules/express/package.json
+verbose loadDefaults express@2.3.4
+silly testEngine { name: 'irc',
+silly testEngine   description: 'An IRC client library for node',
+silly testEngine   version: '0.2.0',
+silly testEngine   author: 
+silly testEngine    { name: 'Martyn Smith',
+silly testEngine      email: 'martyn@dollyfish.net.nz' },
+silly testEngine   contributors: [],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/martynsmith/node-irc.git' },
+silly testEngine   bugs: 
+silly testEngine    { email: 'martyn@dollyfish.net.nz',
+silly testEngine      url: 'http://github.com/martynsmith/node-irc/issues' },
+silly testEngine   main: 'lib/irc',
+silly testEngine   engines: { node: '>=0.1.91' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'GPL',
+silly testEngine        url: 'http://github.com/martynsmith/node-irc/raw/master/COPYING' } ],
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'irc@0.2.0',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.7',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/apanda/code/irc-exp/node_modules/irc/package.json
+verbose loadDefaults irc@0.2.0
+silly testEngine { name: 'node-inspector',
+silly testEngine   version: '0.1.6',
+silly testEngine   description: 'Web Inspector based nodeJS debugger',
+silly testEngine   homepage: 'http://github.com/dannycoates/node-inspector',
+silly testEngine   author: 
+silly testEngine    { name: 'Danny Coates',
+silly testEngine      email: 'dannycoates@gmail.com' },
+silly testEngine   keywords: [ 'debugger', 'inspector' ],
+silly testEngine   engines: { node: '>=0.3.0' },
+silly testEngine   bin: { 'node-inspector': './bin/inspector.js' },
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'node-inspector@0.1.6',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.7',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/apanda/code/irc-exp/node_modules/node-inspector/package.json
+verbose loadDefaults node-inspector@0.1.6
+silly testEngine { name: 'PanPG',
+silly testEngine   version: '0.0.9',
+silly testEngine   description: 'JavaScript PEG parser generator.',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'http://boshi.inimino.org/3box/PanPG/' },
+silly testEngine   directories: { lib: 'build' },
+silly testEngine   main: 'build/PanPG',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'PanPG@0.0.9',
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.7',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/apanda/code/irc-exp/node_modules/PanPG/package.json
+verbose loadDefaults PanPG@0.0.9
+silly testEngine { name: 'socket.io',
+silly testEngine   description: 'The cross-browser WebSocket',
+silly testEngine   version: '0.6.17',
+silly testEngine   author: 
+silly testEngine    { name: 'Guillermo Rauch',
+silly testEngine      email: 'guillermo@learnboost.com' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' },
+silly testEngine      { name: 'Arnout Kazemier',
+silly testEngine        email: 'info@3rd-eden.com' } ],
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'http://github.com/learnboost/Socket.IO-node/raw/master/README.md' } ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/learnboost/Socket.IO-node.git' },
+silly testEngine   engine: [ 'node >=0.1.102' ],
+silly testEngine   main: './index',
+silly testEngine   scripts: { test: 'make test' },
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'socket.io@0.6.17',
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.7',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/apanda/code/irc-exp/node_modules/socket.io/package.json
+verbose loadDefaults socket.io@0.6.17
+verbose into /Users/apanda/code/irc-exp [ 'irc-js' ]
+verbose cache add [ 'irc-js', null ]
+info addNamed [ 'irc-js', '' ]
+verbose addNamed [ null, '' ]
+verbose GET irc-js
+verbose raw, before any munging irc-js
+verbose url resolving [ 'http://registry.npmjs.org/', './irc-js' ]
+verbose url resolved http://registry.npmjs.org/irc-js
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/irc-js',
+verbose url parsed   pathname: '/irc-js' }
+verbose etag "EKWEJ5SIM9QVHOJ19UR7KFLD"
+verbose response http://registry.npmjs.org/irc-js
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.0.2 (Erlang OTP/R14B)',
+silly get cb     etag: '"EKWEJ5SIM9QVHOJ19UR7KFLD"',
+silly get cb     date: 'Tue, 10 May 2011 02:55:15 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag irc-js from cache
+verbose GET irc-js/0.2.18
+verbose raw, before any munging irc-js/0.2.18
+verbose url resolving [ 'http://registry.npmjs.org/', './irc-js/0.2.18' ]
+verbose url resolved http://registry.npmjs.org/irc-js/0.2.18
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/irc-js/0.2.18',
+verbose url parsed   pathname: '/irc-js/0.2.18' }
+verbose etag "EKWEJ5SIM9QVHOJ19UR7KFLD"
+verbose response http://registry.npmjs.org/irc-js/0.2.18
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.0.2 (Erlang OTP/R14B)',
+silly get cb     etag: '"EKWEJ5SIM9QVHOJ19UR7KFLD"',
+silly get cb     date: 'Tue, 10 May 2011 02:55:15 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag irc-js/0.2.18 from cache
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl0.9.8l-v83.1.8.10-darwin-10.7.0',
+verbose bin dist   { shasum: '48b3fe7422376a1744447a8101854f0b2d58e14c',
+verbose bin dist     tarball: 'http://registry.npmjs.org/irc-js/-/irc-js-0.2.18.tgz' } ]
+silly resolved [ { name: 'irc-js',
+silly resolved     description: 'An IRC library for node.js',
+silly resolved     author: 
+silly resolved      { name: 'Gianni Chiappetta',
+silly resolved        email: 'gianni@runlevel6.org',
+silly resolved        url: 'http://gf3.ca' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Adam Bergmark' },
+silly resolved        { name: 'Martin Häger',
+silly resolved          email: 'martin.haeger@gmail.com',
+silly resolved          url: 'http://freeasinbeard.org' },
+silly resolved        { name: 'temp01' },
+silly resolved        { name: 'Diogo Gomes',
+silly resolved          email: 'maushu@graphnode.com',
+silly resolved          url: 'http://www.graphnode.com/' } ],
+silly resolved     homepage: 'http://gf3.github.com/IRC-js/',
+silly resolved     version: '0.2.18',
+silly resolved     main: './lib/irc',
+silly resolved     directories: { lib: './lib', node_libraries: './node_libraries' },
+silly resolved     engines: [ 'node >=0.2.0' ],
+silly resolved     dependencies: { 'coloured-log': '>= 0.9.4' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/gf3/IRC-js.git' },
+silly resolved     license: 
+silly resolved      { type: 'Public Domain',
+silly resolved        url: 'http://github.com/gf3/IRC-js/raw/master/UNLICENSE' },
+silly resolved     devDependencies: {},
+silly resolved     _id: 'irc-js@0.2.18',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.6',
+silly resolved     _nodeVersion: 'v0.5.0-pre',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: 
+silly resolved      { shasum: '48b3fe7422376a1744447a8101854f0b2d58e14c',
+silly resolved        tarball: 'http://registry.npmjs.org/irc-js/-/irc-js-0.2.18.tgz' },
+silly resolved     scripts: {} } ]
+info into /Users/apanda/code/irc-exp irc-js@0.2.18
+info installOne irc-js@0.2.18
+info unbuild /Users/apanda/code/irc-exp/node_modules/irc-js
+silly testEngine { name: 'irc-js',
+silly testEngine   description: 'An IRC library for node.js',
+silly testEngine   author: 
+silly testEngine    { name: 'Gianni Chiappetta',
+silly testEngine      email: 'gianni@runlevel6.org',
+silly testEngine      url: 'http://gf3.ca' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Adam Bergmark' },
+silly testEngine      { name: 'Martin Häger',
+silly testEngine        email: 'martin.haeger@gmail.com',
+silly testEngine        url: 'http://freeasinbeard.org' },
+silly testEngine      { name: 'temp01' },
+silly testEngine      { name: 'Diogo Gomes',
+silly testEngine        email: 'maushu@graphnode.com',
+silly testEngine        url: 'http://www.graphnode.com/' } ],
+silly testEngine   homepage: 'http://gf3.github.com/IRC-js/',
+silly testEngine   version: '0.2.18',
+silly testEngine   main: './lib/irc',
+silly testEngine   directories: { lib: './lib', node_libraries: './node_libraries' },
+silly testEngine   engines: [ 'node >=0.2.0', node: ' >=0.2.0' ],
+silly testEngine   dependencies: { 'coloured-log': '>= 0.9.4' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/gf3/IRC-js.git' },
+silly testEngine   license: 
+silly testEngine    { type: 'Public Domain',
+silly testEngine      url: 'http://github.com/gf3/IRC-js/raw/master/UNLICENSE' },
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'irc-js@0.2.18',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.7',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: '889afaf11b6c288fccd4cacf5dcba4145992b6e1' } }
+verbose caching /Users/apanda/.npm/irc-js/0.2.18/package.json
+verbose mkdir done: /Users/apanda/code/irc-exp/node_modules/___irc-js.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/apanda/code/irc-exp/node_modules/irc-js
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/Users/apanda/.npm/irc-js/0.2.18/package.tgz"
+verbose success tar "-mvxpf" "-" "--no-same-owner" "-C" "/Users/apanda/code/irc-exp/node_modules/___irc-js.npm"
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package/
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package/.gitignore
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package/package.json
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package/Rakefile
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package/README.md
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package/UNLICENSE
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package/lib/
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package/lib/compiler.js
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package/lib/irc.js
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package/lib/irc.peg
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package/lib/parser.js
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package/lib/walker.js
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package/spec/
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package/spec/compiler.spec.js
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package/spec/messages.json
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package/util/
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package/util/generate.js
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package/node_modules/
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package/node_modules/PanPG/
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package/node_modules/PanPG/PanPG.js
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package/node_modules/PanPG/PanPG_util.js
+verbose gunzed /Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package
+verbose rm'ed /Users/apanda/code/irc-exp/node_modules/irc-js
+verbose renamed [ '/Users/apanda/code/irc-exp/node_modules/___irc-js.npm/package',
+verbose renamed   '/Users/apanda/code/irc-exp/node_modules/irc-js' ]
+silly testEngine { name: 'irc-js',
+silly testEngine   description: 'An IRC library for node.js',
+silly testEngine   author: 
+silly testEngine    { name: 'Gianni Chiappetta',
+silly testEngine      email: 'gianni@runlevel6.org',
+silly testEngine      url: 'http://gf3.ca' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Adam Bergmark' },
+silly testEngine      { name: 'Martin Häger',
+silly testEngine        email: 'martin.haeger@gmail.com',
+silly testEngine        url: 'http://freeasinbeard.org' },
+silly testEngine      { name: 'temp01' },
+silly testEngine      { name: 'Diogo Gomes',
+silly testEngine        email: 'maushu@graphnode.com',
+silly testEngine        url: 'http://www.graphnode.com/' } ],
+silly testEngine   homepage: 'http://gf3.github.com/IRC-js/',
+silly testEngine   version: '0.2.18',
+silly testEngine   main: './lib/irc',
+silly testEngine   directories: { lib: './lib', node_libraries: './node_libraries' },
+silly testEngine   engines: [ 'node >=0.2.0', node: ' >=0.2.0' ],
+silly testEngine   dependencies: { 'coloured-log': '>= 0.9.4' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/gf3/IRC-js.git' },
+silly testEngine   license: 
+silly testEngine    { type: 'Public Domain',
+silly testEngine      url: 'http://github.com/gf3/IRC-js/raw/master/UNLICENSE' },
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'irc-js@0.2.18',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.7',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /Users/apanda/code/irc-exp/node_modules/irc-js/package.json
+verbose loadDefaults irc-js@0.2.18
+info preinstall irc-js@0.2.18
+verbose from cache /Users/apanda/code/irc-exp/node_modules/irc-js/package.json
+verbose into /Users/apanda/code/irc-exp/node_modules/irc-js [ 'coloured-log@>= 0.9.4' ]
+verbose cache add [ 'coloured-log@>= 0.9.4', null ]
+info addNamed [ 'coloured-log', '>= 0.9.4' ]
+verbose addNamed [ null, '>=0.9.4' ]
+verbose GET coloured-log
+verbose raw, before any munging coloured-log
+verbose url resolving [ 'http://registry.npmjs.org/', './coloured-log' ]
+verbose url resolved http://registry.npmjs.org/coloured-log
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/coloured-log',
+verbose url parsed   pathname: '/coloured-log' }
+verbose etag "9E650GN9AESJLUPFKIX462GAV"
+verbose response http://registry.npmjs.org/coloured-log
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.0.2 (Erlang OTP/R14B)',
+silly get cb     etag: '"9E650GN9AESJLUPFKIX462GAV"',
+silly get cb     date: 'Tue, 10 May 2011 02:55:16 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag coloured-log from cache
+verbose GET coloured-log/0.9.4
+verbose raw, before any munging coloured-log/0.9.4
+verbose url resolving [ 'http://registry.npmjs.org/',
+verbose url resolving   './coloured-log/0.9.4' ]
+verbose url resolved http://registry.npmjs.org/coloured-log/0.9.4
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/coloured-log/0.9.4',
+verbose url parsed   pathname: '/coloured-log/0.9.4' }
+verbose etag "9E650GN9AESJLUPFKIX462GAV"
+verbose response http://registry.npmjs.org/coloured-log/0.9.4
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.0.2 (Erlang OTP/R14B)',
+silly get cb     etag: '"9E650GN9AESJLUPFKIX462GAV"',
+silly get cb     date: 'Tue, 10 May 2011 02:55:16 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag coloured-log/0.9.4 from cache
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl0.9.8l-v83.1.8.10-darwin-10.7.0',
+verbose bin dist   { tarball: 'http://registry.npmjs.org/coloured-log/-/coloured-log-0.9.4.tgz' } ]
+silly resolved [ { name: 'coloured-log',
+silly resolved     description: 'Combines "coloured" and "log.js" for super simple pretty logging.',
+silly resolved     version: '0.9.4',
+silly resolved     author: { name: 'Ben Truyman', email: 'bentruyman@gmail.com' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'http://github.com/bentruyman/coloured-log' },
+silly resolved     dependencies: { coloured: '>= 0.2.0', log: '>= 1.1.1' },
+silly resolved     keywords: [ 'coloured', 'log', 'logger' ],
+silly resolved     main: './lib/coloured-log',
+silly resolved     engines: { node: '>= 0.2.0' },
+silly resolved     _id: 'coloured-log@0.9.4',
+silly resolved     _nodeSupported: true,
+silly resolved     _npmVersion: '0.2.7-2',
+silly resolved     _nodeVersion: 'v0.3.1-pre',
+silly resolved     dist: { tarball: 'http://registry.npmjs.org/coloured-log/-/coloured-log-0.9.4.tgz' },
+silly resolved     directories: {},
+silly resolved     scripts: {} } ]
+info into /Users/apanda/code/irc-exp/node_modules/irc-js coloured-log@0.9.4
+info installOne coloured-log@0.9.4
+info unbuild /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log
+silly testEngine { name: 'coloured-log',
+silly testEngine   description: 'Combines "coloured" and "log.js" for super simple pretty logging.',
+silly testEngine   version: '0.9.4',
+silly testEngine   author: { name: 'Ben Truyman', email: 'bentruyman@gmail.com' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/bentruyman/coloured-log.git' },
+silly testEngine   dependencies: { coloured: '>= 0.2.0', log: '>= 1.1.1' },
+silly testEngine   keywords: [ 'coloured', 'log', 'logger' ],
+silly testEngine   main: './lib/coloured-log',
+silly testEngine   engines: { node: '>= 0.2.0' },
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'coloured-log@0.9.4',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.7',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: 'f099f8b744314203c9bfc0406c9a91093d5f8ab8' } }
+verbose caching /Users/apanda/.npm/coloured-log/0.9.4/package.json
+verbose mkdir done: /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/___coloured-log.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/Users/apanda/.npm/coloured-log/0.9.4/package.tgz"
+verbose success tar "-mvxpf" "-" "--no-same-owner" "-C" "/Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/___coloured-log.npm"
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/___coloured-log.npm/package/
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/___coloured-log.npm/package/package.json
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/___coloured-log.npm/package/README.md
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/___coloured-log.npm/package/UNLICENSE
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/___coloured-log.npm/package/lib/
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/___coloured-log.npm/package/lib/coloured-log.js
+verbose gunzed /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/___coloured-log.npm/package
+verbose rm'ed /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log
+verbose renamed [ '/Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/___coloured-log.npm/package',
+verbose renamed   '/Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log' ]
+silly testEngine { name: 'coloured-log',
+silly testEngine   description: 'Combines "coloured" and "log.js" for super simple pretty logging.',
+silly testEngine   version: '0.9.4',
+silly testEngine   author: { name: 'Ben Truyman', email: 'bentruyman@gmail.com' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/bentruyman/coloured-log.git' },
+silly testEngine   dependencies: { coloured: '>= 0.2.0', log: '>= 1.1.1' },
+silly testEngine   keywords: [ 'coloured', 'log', 'logger' ],
+silly testEngine   main: './lib/coloured-log',
+silly testEngine   engines: { node: '>= 0.2.0' },
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'coloured-log@0.9.4',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.7',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/package.json
+verbose loadDefaults coloured-log@0.9.4
+info preinstall coloured-log@0.9.4
+verbose from cache /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/package.json
+verbose into /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log [ 'coloured@>= 0.2.0', 'log@>= 1.1.1' ]
+verbose cache add [ 'log@>= 1.1.1', null ]
+info addNamed [ 'log', '>= 1.1.1' ]
+verbose addNamed [ null, '>=1.1.1' ]
+verbose GET log
+verbose raw, before any munging log
+verbose url resolving [ 'http://registry.npmjs.org/', './log' ]
+verbose url resolved http://registry.npmjs.org/log
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/log',
+verbose url parsed   pathname: '/log' }
+verbose etag "8MGK2NFXGEL4N0CL2DBWH37KT"
+verbose cache add [ 'coloured@>= 0.2.0', null ]
+info addNamed [ 'coloured', '>= 0.2.0' ]
+verbose addNamed [ null, '>=0.2.0' ]
+verbose GET coloured
+verbose raw, before any munging coloured
+verbose url resolving [ 'http://registry.npmjs.org/', './coloured' ]
+verbose url resolved http://registry.npmjs.org/coloured
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/coloured',
+verbose url parsed   pathname: '/coloured' }
+verbose etag "8BZVNVTUFIZY7BZYUQGF5FWPR"
+verbose response http://registry.npmjs.org/log
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.0.2 (Erlang OTP/R14B)',
+silly get cb     etag: '"8MGK2NFXGEL4N0CL2DBWH37KT"',
+silly get cb     date: 'Tue, 10 May 2011 02:55:16 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag log from cache
+verbose GET log/1.1.1
+verbose raw, before any munging log/1.1.1
+verbose url resolving [ 'http://registry.npmjs.org/', './log/1.1.1' ]
+verbose url resolved http://registry.npmjs.org/log/1.1.1
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/log/1.1.1',
+verbose url parsed   pathname: '/log/1.1.1' }
+verbose etag "8MGK2NFXGEL4N0CL2DBWH37KT"
+verbose response http://registry.npmjs.org/coloured
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.0.2 (Erlang OTP/R14B)',
+silly get cb     etag: '"8BZVNVTUFIZY7BZYUQGF5FWPR"',
+silly get cb     date: 'Tue, 10 May 2011 02:55:16 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag coloured from cache
+verbose GET coloured/0.2.0
+verbose raw, before any munging coloured/0.2.0
+verbose url resolving [ 'http://registry.npmjs.org/', './coloured/0.2.0' ]
+verbose url resolved http://registry.npmjs.org/coloured/0.2.0
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/coloured/0.2.0',
+verbose url parsed   pathname: '/coloured/0.2.0' }
+verbose etag "8BZVNVTUFIZY7BZYUQGF5FWPR"
+verbose response http://registry.npmjs.org/log/1.1.1
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.0.2 (Erlang OTP/R14B)',
+silly get cb     etag: '"8MGK2NFXGEL4N0CL2DBWH37KT"',
+silly get cb     date: 'Tue, 10 May 2011 02:55:16 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag log/1.1.1 from cache
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl0.9.8l-v83.1.8.10-darwin-10.7.0',
+verbose bin dist   { tarball: 'http://registry.npmjs.org/log/-/log-1.1.1.tgz' } ]
+verbose response http://registry.npmjs.org/coloured/0.2.0
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.0.2 (Erlang OTP/R14B)',
+silly get cb     etag: '"8BZVNVTUFIZY7BZYUQGF5FWPR"',
+silly get cb     date: 'Tue, 10 May 2011 02:55:17 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag coloured/0.2.0 from cache
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl0.9.8l-v83.1.8.10-darwin-10.7.0',
+verbose bin dist   { tarball: 'http://registry.npmjs.org/coloured/-/coloured-0.2.0.tgz' } ]
+silly resolved [ { name: 'log',
+silly resolved     description: 'Tiny logger with streaming reader',
+silly resolved     version: '1.1.1',
+silly resolved     author: 
+silly resolved      { name: 'TJ Holowaychuk',
+silly resolved        email: 'tj@vision-media.ca' },
+silly resolved     keywords: [ 'log', 'logger' ],
+silly resolved     main: './lib/log',
+silly resolved     engines: { node: '>= 0.2.0' },
+silly resolved     _id: 'log@1.1.1',
+silly resolved     _nodeSupported: true,
+silly resolved     _npmVersion: '0.2.7-2',
+silly resolved     _nodeVersion: 'v0.3.1-pre',
+silly resolved     dist: { tarball: 'http://registry.npmjs.org/log/-/log-1.1.1.tgz' },
+silly resolved     directories: {},
+silly resolved     scripts: {} },
+silly resolved   { name: 'coloured',
+silly resolved     description: 'Pretty colours in your terminal.',
+silly resolved     author: 
+silly resolved      { name: 'Gianni Chiappetta',
+silly resolved        email: 'gianni@runlevel6.org',
+silly resolved        url: 'http://gf3.ca' },
+silly resolved     version: '0.2.0',
+silly resolved     main: './lib/coloured',
+silly resolved     directories: { lib: './lib' },
+silly resolved     engines: [ 'node >=0.1.5' ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'https://gf3@github.com/gf3/coloured.git' },
+silly resolved     license: 
+silly resolved      { type: 'Public Domain',
+silly resolved        url: 'http://github.com/gf3/coloured/raw/master/UNLICENSE' },
+silly resolved     _id: 'coloured@0.2.0',
+silly resolved     _nodeSupported: true,
+silly resolved     _npmVersion: '0.2.7-2',
+silly resolved     _nodeVersion: 'v0.3.1-pre',
+silly resolved     dist: { tarball: 'http://registry.npmjs.org/coloured/-/coloured-0.2.0.tgz' },
+silly resolved     scripts: {} } ]
+info into /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log log@1.1.1
+info into /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log coloured@0.2.0
+info installOne log@1.1.1
+info installOne coloured@0.2.0
+info unbuild /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/log
+info unbuild /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/coloured
+silly testEngine { name: 'log',
+silly testEngine   description: 'Tiny logger with streaming reader',
+silly testEngine   version: '1.1.1',
+silly testEngine   author: 
+silly testEngine    { name: 'TJ Holowaychuk',
+silly testEngine      email: 'tj@vision-media.ca' },
+silly testEngine   keywords: [ 'log', 'logger' ],
+silly testEngine   main: './lib/log.js',
+silly testEngine   engines: { node: '>= 0.2.0' },
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'log@1.1.1',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.7',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: '5a5675730090dbdfe1fdf9a4d1e9284ac4f86330' } }
+verbose caching /Users/apanda/.npm/log/1.1.1/package.json
+silly testEngine { name: 'coloured',
+silly testEngine   description: 'Pretty colours in your terminal.',
+silly testEngine   author: 
+silly testEngine    { name: 'Gianni Chiappetta',
+silly testEngine      email: 'gianni@runlevel6.org',
+silly testEngine      url: 'http://gf3.ca' },
+silly testEngine   version: '0.2.0',
+silly testEngine   main: './lib/coloured',
+silly testEngine   directories: { lib: './lib' },
+silly testEngine   engines: [ 'node >=0.1.5', node: ' >=0.1.5' ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/gf3/coloured.git' },
+silly testEngine   license: 
+silly testEngine    { type: 'Public Domain',
+silly testEngine      url: 'http://github.com/gf3/coloured/raw/master/UNLICENSE' },
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'coloured@0.2.0',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.7',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: 'fd4203f4f72cf8e91e1314e7d3fec98bcd7f704e' } }
+verbose caching /Users/apanda/.npm/coloured/0.2.0/package.json
+verbose mkdir done: /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___log.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/log
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir done: /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___coloured.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/coloured
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/Users/apanda/.npm/log/1.1.1/package.tgz"
+verbose success gzip "--decompress" "--stdout" "/Users/apanda/.npm/coloured/0.2.0/package.tgz"
+verbose success tar "-mvxpf" "-" "--no-same-owner" "-C" "/Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___coloured.npm"
+verbose success tar "-mvxpf" "-" "--no-same-owner" "-C" "/Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___log.npm"
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___log.npm/package/
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___log.npm/package/History.md
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___log.npm/package/index.html
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___log.npm/package/index.js
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___log.npm/package/Makefile
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___log.npm/package/package.json
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___log.npm/package/Readme.md
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___log.npm/package/examples/
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___log.npm/package/examples/file.js
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___log.npm/package/examples/file.log
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___log.npm/package/examples/reader.js
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___log.npm/package/examples/stdout.js
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___log.npm/package/lib/
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___log.npm/package/lib/log.js
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___coloured.npm/package/
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___coloured.npm/package/package.json
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___coloured.npm/package/README.md
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___coloured.npm/package/UNLICENSE
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___coloured.npm/package/example/
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___coloured.npm/package/example/example.js
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___coloured.npm/package/example/example2.js
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___coloured.npm/package/lib/
+silly asyncMap in gTP /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___coloured.npm/package/lib/coloured.js
+verbose gunzed /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___log.npm/package
+verbose gunzed /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___coloured.npm/package
+verbose rm'ed /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/log
+verbose rm'ed /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/coloured
+verbose renamed [ '/Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___log.npm/package',
+verbose renamed   '/Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/log' ]
+verbose renamed [ '/Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/___coloured.npm/package',
+verbose renamed   '/Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/coloured' ]
+silly testEngine { name: 'log',
+silly testEngine   description: 'Tiny logger with streaming reader',
+silly testEngine   version: '1.1.1',
+silly testEngine   author: 
+silly testEngine    { name: 'TJ Holowaychuk',
+silly testEngine      email: 'tj@vision-media.ca' },
+silly testEngine   keywords: [ 'log', 'logger' ],
+silly testEngine   main: './lib/log.js',
+silly testEngine   engines: { node: '>= 0.2.0' },
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'log@1.1.1',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.7',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/log/package.json
+verbose loadDefaults log@1.1.1
+silly testEngine { name: 'coloured',
+silly testEngine   description: 'Pretty colours in your terminal.',
+silly testEngine   author: 
+silly testEngine    { name: 'Gianni Chiappetta',
+silly testEngine      email: 'gianni@runlevel6.org',
+silly testEngine      url: 'http://gf3.ca' },
+silly testEngine   version: '0.2.0',
+silly testEngine   main: './lib/coloured',
+silly testEngine   directories: { lib: './lib' },
+silly testEngine   engines: [ 'node >=0.1.5', node: ' >=0.1.5' ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/gf3/coloured.git' },
+silly testEngine   license: 
+silly testEngine    { type: 'Public Domain',
+silly testEngine      url: 'http://github.com/gf3/coloured/raw/master/UNLICENSE' },
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'coloured@0.2.0',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.7',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/coloured/package.json
+verbose loadDefaults coloured@0.2.0
+info preinstall log@1.1.1
+info preinstall coloured@0.2.0
+verbose from cache /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/log/package.json
+verbose into /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/log []
+silly resolved []
+verbose about to build /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/log
+info build /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/log
+verbose from cache /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/log/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules' ]
+info linkStuff log@1.1.1
+verbose linkBins log@1.1.1
+verbose linkMans log@1.1.1
+verbose rebuildBundles log@1.1.1
+verbose from cache /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/coloured/package.json
+verbose into /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/coloured []
+silly resolved []
+verbose about to build /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/coloured
+info build /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/coloured
+verbose from cache /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules/coloured/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/node_modules' ]
+info linkStuff coloured@0.2.0
+verbose linkBins coloured@0.2.0
+verbose linkMans coloured@0.2.0
+verbose rebuildBundles coloured@0.2.0
+info install log@1.1.1
+info install coloured@0.2.0
+info postinstall log@1.1.1
+info postinstall coloured@0.2.0
+verbose installOne cb log@1.1.1
+verbose installOne cb coloured@0.2.0
+verbose about to build /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log
+info build /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log
+verbose from cache /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/coloured-log/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/Users/apanda/code/irc-exp/node_modules/irc-js/node_modules' ]
+info linkStuff coloured-log@0.9.4
+verbose linkBins coloured-log@0.9.4
+verbose linkMans coloured-log@0.9.4
+verbose rebuildBundles coloured-log@0.9.4
+verbose rebuildBundles [ 'coloured', 'log' ]
+info install coloured-log@0.9.4
+info postinstall coloured-log@0.9.4
+verbose installOne cb coloured-log@0.9.4
+verbose about to build /Users/apanda/code/irc-exp/node_modules/irc-js
+info build /Users/apanda/code/irc-exp/node_modules/irc-js
+verbose from cache /Users/apanda/code/irc-exp/node_modules/irc-js/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/Users/apanda/code/irc-exp/node_modules' ]
+info linkStuff irc-js@0.2.18
+verbose linkBins irc-js@0.2.18
+verbose linkMans irc-js@0.2.18
+verbose rebuildBundles irc-js@0.2.18
+verbose rebuildBundles [ 'coloured-log', 'PanPG' ]
+verbose rebuild bundle /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/PanPG
+info build /Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/PanPG
+ERR! error installing irc-js@0.2.18 Error: ENOENT, No such file or directory '/Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/PanPG/package.json'
+info unbuild /Users/apanda/code/irc-exp/node_modules/irc-js
+verbose from cache /Users/apanda/code/irc-exp/node_modules/irc-js/package.json
+info preuninstall irc-js@0.2.18
+info uninstall irc-js@0.2.18
+verbose unbuild irc-js@0.2.18 [ false,
+verbose unbuild irc-js@0.2.18   '/Users/apanda/code/irc-exp/env/lib/node_modules',
+verbose unbuild irc-js@0.2.18   '/Users/apanda/code/irc-exp/node_modules' ]
+info postuninstall irc-js@0.2.18
+verbose installOne cb irc-js@0.2.18
+ERR! Error: ENOENT, No such file or directory '/Users/apanda/code/irc-exp/node_modules/irc-js/node_modules/PanPG/package.json'
+ERR! Report this *entire* log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Darwin 10.7.0
+ERR! command "node" "/Users/apanda/code/irc-exp/env/bin/npm" "install" "irc-js"
+verbose exit [ 2, true ]
