@@ -11,7 +11,7 @@ var sockets = [];
 var uniqueClientId = 0;
 
 function registerClient() {
-    clientId = uniqueClientId;
+    var clientId = uniqueClientId;
     uniqueClientId++;
     sys.puts('Using name pandabot' + Date.now());
     //clients[clientId] = new irc.Client('irc.freenode.net', 'pandabot' + clientId, {
@@ -31,7 +31,17 @@ function registerClient() {
         }
         //sys.puts('event ' + message.command + ':' +  message.args);
     });
-    clients[clientId].connect(function() { sys.puts('connected ' + clientId);});
+
+    clients[clientId].addListener('error', function(er) {
+        sys.puts('Error ' + er);
+        if (sockets[clientId] != null) {
+            sockets[clientId].send('error' + er);
+        }
+    });
+    clients[clientId].connect(function() { 
+        sys.puts('connected ' + clientId);
+        clients[clientId].join('##meatspace');
+        });
     
     clients[clientId].addListener('message', function(nick, to, text) {
         //sys.puts('message ' + to + ' ' + text);
